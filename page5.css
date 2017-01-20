@@ -1,0 +1,90 @@
+body {
+  width: 1366px;
+  margin: 0;
+}
+
+header {
+  background-color: #34414a;
+  width: 1366px;
+  height: 150px;
+  display: block;
+  margin: 0;
+  display: flex;
+}
+
+.logo{
+  height: 150px;
+  flex: 1;
+}
+
+/*h1 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 150px;
+  text-align: center;
+  margin: 0;
+  color: #34414a;
+}*/
+
+.main-contant {
+  background: url("C:/Users/Edi/Desktop/WEBSITES/page5/img/budovy.jpeg") no-repeat;
+  /*background-color:white;*/
+  display: block;
+  width: 1366px;
+  height: 911px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 200px;
+}
+
+.menu {
+    margin: 47px;
+    padding-left: 0; /* ul elementy maju same od seba lavy padding, zrusime */
+    list-style: none; /* toto zrusi tie bodky v zoznamoch */
+
+}
+
+.navigation{
+  /*background-color: white;*/
+  width: 1000px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  flex: auto;
+}
+
+.menu li,
+.menu a {
+    display: inline-block; /* aby boli vedla seba */
+}
+
+.menu a {
+    margin: 0 5px;
+    text-align: center;
+    padding: 18px;
+    font-size: 22px;
+    text-decoration: none;
+    color:#f06d6d;
+    /*width: 100%;*/
+}
+
+footer {
+  background-color:  #34414a;
+  width: 1366px;
+  height: 150px;
+  display: block;
+  margin: 0;
+}
+
+p {
+  color:#f06d6d;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding-left: 20px;
+  padding-top: 50px;
+  text-align: center;
+}
